@@ -1,0 +1,51 @@
+#home-heading{
+    font-family: "Poppins";
+    font-size: 43px;
+}
+
+#gradient-text{
+    background-color: #A5E7FF;
+    background-image: linear-gradient(to bottom right,#A5E7FF 30%, #8D7AD2 60%, #C1C9FF 30%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#gradient-button {
+    background-image: linear-gradient(to bottom left,#A5E7FF 10%, #8D7AD2);
+    width: 90vw;
+
+}
+
+#button {
+    width: 90vw;
+}
+
+#card{
+    height: 400px;
+    background-color: rgba(85, 85, 102, 0.85);
+    opacity: 0.8;
+}
+
+@media (min-width: 640px) { 
+    #home-heading{
+        font-weight: 700;
+        font-size: 72px;
+    }
+
+    #gradient-button {
+        width: 150px;
+    
+    }
+
+    #button {
+        width: 150px;
+    }
+
+    #card{
+        height: 350px;
+        width: 260px;
+    }
+ } 

@@ -1,0 +1,17 @@
+.App{
+    height: 100%;
+    margin-bottom: 0;
+    background-image: url(/public/Ellipse-75.png), url(/public/Ellipse-76.png), url(/public/velacoin-bg.svg), url(/public/blur-1.png), url(/public/star-2.png), url(/public/star-1.png), url(/public/star-3.png), url(/public/blur-2.png), url(/public/blur-3.png), url(/public/loopers.png);
+    background-position: 50px 80px, -100px -20px, 600px -160px, -100px -400px, 280px 70px, 280px 140px, 1100px 1420px, -200px 2400px, -800px -200px, 700px 900px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    
+}
+
+@media (min-width: 640px) { 
+    .App{
+         background-image: url(/public/Ellipse-75.png), url(/public/Ellipse-76.png), url(/public/velacoin-bg.svg), url(/public/blur-1.png), url(/public/star-2.png), url(/public/star-1.png), url(/public/star-3.png), url(/public/blur-2.png), url(/public/blur-3.png), url(/public/loopers.png);
+         background-position: 50px 80px, -100px -20px, 600px -160px, -200px -300px, 70px 1000px, 70px 1100px, 1100px 1420px, 0 1300px, 400px 1500px, 700px 900px;
+         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    }
+ } 
+
