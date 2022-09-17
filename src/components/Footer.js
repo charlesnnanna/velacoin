@@ -69,7 +69,7 @@ function Footer(props) {
                         })
                     }
             </div>
-            <p className='text-left sm:text-right py-10 text-sm'>&copy; 2077 Untitled UI. All rights reserved.</p>
+            <p className='text-left sm:text-right py-10 text-sm'>&copy; 2022 Velacoin. All rights reserved.</p>
             <img className=' hidden sm:block py-5' src = "velacoin-lg.png" alt = "logo-for-lg"/>
         </div>
     );
